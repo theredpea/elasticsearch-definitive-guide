@@ -80,7 +80,7 @@ Including all of their IDs in the second query would make for a very large
 query, and one that has to do millions of term lookups.
 
 This approach is suitable when the first entity (the `user` in this example)
-has a small number of documents and, preferably, they seldom change. This
+has a small number of documents and, preferably, the first entity seldom changes. This
 would allow the application to cache the results and avoid running the first
 query often.
 
